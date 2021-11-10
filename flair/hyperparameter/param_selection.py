@@ -272,6 +272,7 @@ class TextClassifierParamSelector(ParamSelector):
             label_dictionary=self.label_dictionary,
             multi_label=self.multi_label,
             document_embeddings=document_embedding,
+            label_type = "topic"
         )
 
         return text_classifier
